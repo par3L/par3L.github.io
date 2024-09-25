@@ -13,7 +13,7 @@ html {
 body {
     height: 100vh;
     background-color: #000;
-    background-image: url(/assets/comp-repairs.jpg);
+    background-image: url(./assets/comp-repairs.jpg);
     background-size: cover;
     background-position: center;
 }
