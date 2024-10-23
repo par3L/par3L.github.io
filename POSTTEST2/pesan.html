@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan - Acumalaka</title>
+    <link rel="icon" type="image/x.icon" href="./assets/acumalaka-favicon.jpg">
+    <link rel="stylesheet" href="./style/styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" class="logo">Acumalaka Resto</a>
+        <a href="index.html">Bukti Pemesanan</a>
+        <a href="menu.html">Menu</a>
+        <a href="pesan.html" class="active">Pesan</a>
+        <a href="contact">Hubungi Kami</a>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h3>Silahkan Memesan</h3>
+        </div>
+
+        <form>
+            <div>
+                <div>Nama:</div><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <div>Alamat:</div><br>
+                <input type="text" id="address" name="address" required><br><br>
+
+                <div>Pesanan:</div><br>
+                <textarea id="order" name="order" rows="4" cols="50" required></textarea><br><br>
+
+                <div>Pembayaran:</div><br>
+                <input type="radio" id="bca" name="payment" value="bca"> Bank BCA<br>
+                <input type="radio" id="bri" name="payment" value="bri"> Bank BRI<br>
+                <input type="radio" id="ovo" name="payment" value="ovo"> OVO<br>
+                <input type="radio" id="gopay" name="payment" value="gopay"> GoPay<br><br>
+                <a href="index.html">
+                    <button type="submit">Submit Pesanan</button>
+                </a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
